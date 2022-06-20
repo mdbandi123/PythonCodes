@@ -1,0 +1,6 @@
+studno
+20568987
+name
+Mark Lugtu
+age
+21

@@ -1,30 +1,40 @@
+##Lista
+#-Ordered and Changeable
+#-Uses []
+
+#Sample of List
 lista = ["sun", "moon", "star", "cloud"]
 lista2 =["King", "King", "Queen"]
 s1 = [1,2,3,4,5,1,2,3,1,1,1,3]
 
-##print(lista)
-##print(s1)
-##print(lista[2])
-##print(lista[1:3])
-##print(lista[1:])
+###TO PRINT LIST
+#print(lista)
+#print(s1)
+
+##Printing a specific index
+#print(lista[2])
+
+##Printing using range
+#ex syntax = ([a:b]) a is the start of the range (included) b is the end (not included)
+#print(lista[1:3])
+#print(lista[1:])
+
+##Negative ranges start at the end from [-1]
+#print(lista[-2])
+#print(lista[:-2])
+#print(lista[-2:])
+
+##FOR SUBSTITING LIST VALUES
+#print(lista)
+#lista[1] = "Sumang"
+#print(lista)
 
 
-#FROM THE END
-##print(lista[-2])
-##print(lista[:-2])
-##print(lista[-2:])
-
-#FOR CHANGING VALUES
-##print(lista)
-##lista[1] = "Sumang"
-##print(lista)
-##
-
-#FOR REPEATING
-##for i in lista:
-##    print(i)
-##for i in lista:
-##    print(i, end="-")
+##FOR ITERATION
+#for i in lista:
+#    print(i)
+#for i in lista:
+#    print(i, end="-")
 
 #FOR CONDITIONAL
 ##if "King" in lista:
